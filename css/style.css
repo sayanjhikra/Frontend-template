@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *,
 p,
 ul,
@@ -13,15 +13,17 @@ h6 {
   padding: 0;
 }
 body {
-  font-family: "Poppins", serif;
+  /* font-family: "Poppins", serif; */
   /* background: #131616; */
 }
-ul {  
+ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 button {
   border: none;
   outline: none;
@@ -82,19 +84,20 @@ button {
 .navbar {
   padding: 0;
   padding-top: 32px;
-  & .container-fluid {
-    padding: 0;
-  }
-  & .navbar-nav {
-    gap: 55px;
-    & .nav-link {
-      font-size: 16px;
-      font-weight: 400;
-    }
-  }
-  & .navbar-collapse {
-    gap: 52px;
-  }
+}
+.navbar .container-fluid {
+  padding: 0;
+}
+.navbar .navbar-nav {
+  gap: 55px;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar .navbar-collapse {
+  gap: 52px;
 }
 
 /* ///////////////////////////////////////////////////////// */
