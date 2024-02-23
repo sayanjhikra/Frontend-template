@@ -13,8 +13,7 @@ h6 {
   padding: 0;
 }
 body {
-  /* font-family: "Poppins", serif; */
-  /* background: #131616; */
+  font-family: "Poppins", serif;
 }
 ul {
   list-style: none;
@@ -44,31 +43,26 @@ button {
 
 /* ///////////////////////////////////////////////////////// */
 /* ////////////////// custom css //////////////////////// */
-.sec-heading {
+h1 {
   color: var(--color-a);
   font-size: 40px;
   font-weight: 400;
   line-height: 59.8px;
 }
-.sec-name {
-  color: var(--color-b);
+h2 {
+  /* color: var(--color-b);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 6.88px;
-  line-height: 23.92px;
+  line-height: 23.92px; */
 }
-.txt-a {
+p {
   color: var(--color-a);
   font-size: 16px;
   font-weight: 400;
   line-height: 21.82px;
 }
-.txt-b {
-  color: var(--color-a);
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 6.88px;
-}
+
 .btn-a {
   border-radius: 100px;
   border: 1px solid var(--color-b);
@@ -83,38 +77,28 @@ button {
 /* bs-5.3 */
 .navbar {
   padding: 0;
-  padding-top: 32px;
 }
-.navbar .container-fluid {
-  padding: 0;
-}
+
 .navbar .navbar-nav {
-  gap: 55px;
+  /* gap: 55px; */
 }
 .navbar .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 400;
 }
 
-.navbar .navbar-collapse {
-  gap: 52px;
-}
 
-/* ///////////////////////////////////////////////////////// */
-/* ///////////////////////////////////////////////////////// */
 /* ////////////// Navbar ///////////// */
 
 .logo {
-  color: #000000;
+  /* color: #000000;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 6.88px;
+  letter-spacing: 6.88px; */
 }
 
 /* ////////////// hero-sec ///////////// */
 
-/* ///////////////////////////////////////////////////////// */
-/* ///////////////////////////////////////////////////////// */
 /* ////////////// media-quaries ///////////// */
 @media (max-width: 1400px) {
 }
