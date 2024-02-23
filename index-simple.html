@@ -25,11 +25,11 @@
 </head>
 
 <body>
-    <header class="container-a">
+    <header class="">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-lg-flex align-items-center">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <div class="logo d-flex align-items-center">
+                    <div class="logo">
                         <!-- <img src="images/logo.png" alt=""> -->
                         <h1 class="logo-txt">LOGO</h1>
                     </div>
@@ -39,10 +39,10 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">HOME</a>
+                            <a class="nav-link" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ABOUT US</a>
@@ -52,8 +52,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <button class="btn-a ">CONTACT US <span><i
-                                            class="fa-solid fa-house"></i></span></button>
+                                <button class="btn-a ">CONTACT US
+                                    <span>
+                                        <i class="fa-solid fa-house"></i>
+                                    </span>
+                                </button>
                             </a>
                         </li>
                     </ul>
@@ -65,8 +68,22 @@
     <footer></footer>
 
     <!-- swiper  -->
+    <div class="swiper logoSlider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+        </div>
+    </div>
+    
     <script>
-        var swiper = new Swiper(".cardSlider", {
+        var swiper = new Swiper(".logoSlider", {
             navigation: {
                 nextEl: '.button-next',
                 prevEl: '.button-prev',
@@ -77,22 +94,21 @@
                 disableOnInteraction: false,
             },
             speed: 600,
-            spaceBetween: 24,
             breakpoints: {
                 0: {
                     slidesPerView: 1,
-                    // spaceBetween: 0,
+                    spaceBetween: 0,
                 },
                 768: {
                     slidesPerView: 2,
-                    // spaceBetween: 12,
+                    spaceBetween: 12,
                 },
                 992: {
-                    slidesPerView: 3,
-                    // spaceBetween: 32,
+                    slidesPerView: 4,
+                    spaceBetween: 32,
                 }
             },
-
+    
         });
     </script>
 </body>
