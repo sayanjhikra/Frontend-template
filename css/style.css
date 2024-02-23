@@ -116,15 +116,15 @@ button {
 /* ///////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////// */
 /* ////////////// media-quaries ///////////// */
-@media screen and (max-device-width: 1400px) {
+@media (max-width: 1400px) {
 }
-@media screen and (max-device-width: 1200px) {
+@media (max-width: 1200px) {
 }
-@media screen and (max-device-width: 1140px) {
+@media (max-width: 1140px) {
 }
-@media screen and (max-device-width: 992px) {
+@media (max-width: 992px) {
 }
-@media screen and (max-device-width: 768px) {
+@media (max-width: 768px) {
 }
-@media screen and (max-device-width: 576px) {
+@media (max-width: 576px) {
 }
