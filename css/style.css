@@ -37,78 +37,66 @@ button {
 
 /* /////////// variables ////////// */
 :root {
-  --color-a: #fff;
-  --color-b: #6d7d7d;
+  --primary-color: #0e4ac0;
+  --secondary-color: #414141;
 }
 
 /* ///////////////////////////////////////////////////////// */
 /* ////////////////// custom css //////////////////////// */
 h1 {
-  color: var(--color-a);
+  color: var(--primary-color);
   font-size: 40px;
   font-weight: 400;
-  line-height: 59.8px;
+  line-height: 60px;
 }
 h2 {
-  /* color: var(--color-b);
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 6.88px;
-  line-height: 23.92px; */
+  line-height: 23.92px;
 }
 p {
-  color: var(--color-a);
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 21.82px;
+  line-height: 22px;
 }
 
-.btn-a {
-  border-radius: 100px;
-  border: 1px solid var(--color-b);
-  color: var(--color-a);
+/* btn */
+.primary-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary-color);
   padding-inline: 28px;
   padding-block: 8px;
-  text-align: center;
+  /* border: 1px solid var(--primary-color); */
+  border-radius: 100px;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 6.88px;
 }
-/* bs-5.3 */
+
+/* ////////////// bootstrap customize ///////////// */
 .navbar {
   padding: 0;
 }
 
-.navbar .navbar-nav {
-  /* gap: 55px; */
-}
+/* .navbar .navbar-nav {
+  gap: 55px;
+} */
 .navbar .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 400;
 }
 
+/* ////////////// header ///////////// */
 
-/* ////////////// Navbar ///////////// */
-
-.logo {
-  /* color: #000000;
+/* .logo {
+  color: #000000;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 6.88px; */
-}
+  letter-spacing: 6.88px;
+} */
 
 /* ////////////// hero-sec ///////////// */
-
-/* ////////////// media-quaries ///////////// */
-@media (max-width: 1400px) {
-}
-@media (max-width: 1200px) {
-}
-@media (max-width: 1140px) {
-}
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 576px) {
-}
