@@ -39,16 +39,11 @@ button {
 :root {
   --primary-color: #0e4ac0;
   --secondary-color: #414141;
+  --accent-color: #414141;
 }
 
 /* ///////////////////////////////////////////////////////// */
 /* ////////////////// custom css //////////////////////// */
-h1 {
-  color: var(--primary-color);
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 60px;
-}
 h2 {
   color: var(--primary-color);
   font-size: 16px;
@@ -67,14 +62,12 @@ p {
 .primary-btn {
   display: inline-block;
   color: #fff;
-  background-color: var(--primary-color);
   padding-inline: 28px;
   padding-block: 8px;
-  /* border: 1px solid var(--primary-color); */
-  border-radius: 100px;
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 6.88px;
+  border-radius: 100px;
+  background-color: var(--primary-color);
 }
 
 /* ////////////// bootstrap customize ///////////// */
