@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-*,
 p,
 ul,
 li,
@@ -12,9 +11,16 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", serif;
 }
+
 ul {
   list-style: none;
 }
@@ -31,15 +37,14 @@ button {
 .container-a {
   width: 100%;
   max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 }
 
 /* /////////// variables ////////// */
 :root {
   --primary-color: #0e4ac0;
-  --secondary-color: #414141;
-  --accent-color: #414141;
+  /* --secondary-color: #414141; */
+  /* --accent-color: #414141; */
 }
 
 /* ///////////////////////////////////////////////////////// */
@@ -48,14 +53,11 @@ h2 {
   color: var(--primary-color);
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 6.88px;
-  line-height: 23.92px;
 }
 p {
   color: var(--secondary-color);
   font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
 }
 
 /* btn */
@@ -74,10 +76,9 @@ p {
 .navbar {
   padding: 0;
 }
-
-/* .navbar .navbar-nav {
+.navbar .navbar-nav {
   gap: 55px;
-} */
+}
 .navbar .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 400;
@@ -92,4 +93,10 @@ p {
   letter-spacing: 6.88px;
 } */
 
-/* ////////////// hero-sec ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// section ///////////// */
+/* ////////////// footer ///////////// */
