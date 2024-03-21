@@ -35,11 +35,10 @@
                         <h4 class="logo-txt">LOGO</h4>
                     </div>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
@@ -65,6 +64,32 @@
                 </div>
             </div>
         </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header d-flex justify-content-end pt-4 pe-4">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Client Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <!-- start here -->
