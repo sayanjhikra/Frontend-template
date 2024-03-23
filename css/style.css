@@ -33,7 +33,7 @@ button {
 
 /* /////////// variables ////////// */
 :root {
-  --primary-color: #0e4ac0;
+  --primary-color: #ff8000;
   /* --secondary-color: #414141; */
   /* --accent-color: #414141; */
 }
@@ -74,15 +74,17 @@ p {
   & .nav-link {
     font-size: 16px;
     font-weight: 600;
-    &.active {
+    transition: 0.3s ease-in-out;
+    &.active,
+    &:hover {
       color: var(--primary-color);
     }
   }
 }
 
 /* ////////////// header ///////////// */
-.logo {
-}
+/* .logo {
+} */
 
 /* ////////////// section ///////////// */
 /* ////////////// section ///////////// */
